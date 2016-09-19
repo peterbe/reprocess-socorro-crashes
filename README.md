@@ -122,4 +122,4 @@ The script `reprocess.py` reads from `havenots.txt`, and sends a list of
 these (in batches) to `/api/Reprocessing/` and notes which ones it has sent
 in into `reprocessed.txt`:
 
-    $ python
+    $ python reprocess.py AUTH_TOKEN
