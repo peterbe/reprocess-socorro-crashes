@@ -16,8 +16,6 @@ def get_entropies(length):
 
 
 def run(access_key, secret_access_key, dates):
-    print locals()
-    raise Exception
     assert dates
     conn = boto.s3.connect_to_region(
         REGION,
