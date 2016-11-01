@@ -4,14 +4,12 @@ import itertools
 import boto.s3.connection
 
 
-POOL = '0123456789abcdef'
-
 BUCKET_NAME = 'org.mozilla.crash-stats.production.crashes'
 REGION = 'us-west-2'
 
 
-def get_entropies(length):
-    for each in itertools.combinations(POOL, length):
+def get_entropies(length, pool='0123456789abcdef'):
+    for each in itertools.combinations_with_replacement(pool, length):
         yield ''.join(each)
 
 
