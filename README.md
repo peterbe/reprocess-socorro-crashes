@@ -63,7 +63,7 @@ Working Example
 First figure out which dates you need and create the master list. Suppose
 it was Sep 15-16 2016:
 
-    $ python list.py AWS_ACCESS_KEY AWS_ACCESS_SECRET 20160915 201609
+    $ python list.py AWS_ACCESS_KEY AWS_ACCESS_SECRET 20160915 20160915
 
 This creates a file called `uuids.txt`:
 
