@@ -9,7 +9,7 @@ REGION = 'us-west-2'
 
 
 def get_entropies(length, pool='0123456789abcdef'):
-    for each in itertools.combinations_with_replacement(pool, length):
+    for each in itertools.product(pool, repeat=length):
         yield ''.join(each)
 
 
