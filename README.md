@@ -1,3 +1,14 @@
+UPDATE
+======
+
+**THIS PROJECT IS NOT MAINTAINED AND IS RAPIDLY GETTING ANCIENT. PLEASE SEE:**
+
+https://socorro.readthedocs.io/en/latest/howto.html?highlight=reprocess#reprocess-crashes
+
+
+
+
+
 Reprocess Socorro Crashes
 =========================
 
